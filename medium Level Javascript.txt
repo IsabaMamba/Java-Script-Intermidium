@@ -1,0 +1,177 @@
+// var n = Math.random();
+// n = n*6;
+// n = Math.floor(n) + 1;
+// console.log("this is your number: "+n)
+
+// var personA = prompt("Allow me the first Person Name:");
+// var personB = prompt("Allow me the second Person Name:");
+
+// console.log("Calculating your love of "+personA+" and "+personB);
+
+// var n = Math.random() * 99;
+// n = Math.floor(n) + 1;
+// if(n >= 85){
+//     alert("this is your love score: "+n+"%, Your are Soulmates.");
+// }
+// if(n>= 40 && n <=65){
+//     alert("this is your love score: "+n+"%, its for fun");
+// }
+// else{
+//     alert("this is your love score: "+n+"%, better found some one else");
+// }
+    
+// // alert("Thanks for using Mamba Code");
+// function MathBMI(bmi){
+//     var height = prompt("Provide your height:");
+//     var weight = prompt("Provide your weight:");
+//     var bmi = (weight /(height)**2);
+//     console.log("your BMI is :" +bmi);
+//     return bmi;
+// }  
+// var bmi = MathBMI()
+
+// if(bmi >= 18.5){
+//     alert("Your BMI is: "+bmi+" you are underweight");
+//     }
+// if(bmi >= 18.5 && bmi <= 24.9){
+//     alert("Your BMI is: "+bmi+" you are normal weight");
+//     }
+// if(bmi > 24.9){
+//     alert("Your BMI is: "+bmi+" you are overweight");
+//     }
+// else{
+//     alert("error: input correct inform")
+//     }
+
+// if(year % 4 ===0){
+//     if(year % 100 ===0){
+//         if(year % 400===0){
+//             return"Leap Year";
+//         }else{
+//             return"Not leap year";
+//         }
+//     }else{
+//         return "Leap year";
+//     }
+// }else{
+//     return "Not leap Year";
+// }
+
+// var guestList = ["Roxana","Kristopher","Fernanda","Kirtix","Caribe","Benja"];
+// // console.log(guestList[0]);
+
+// var name = prompt("Can i get your name?");
+
+// if(guestList.includes(name)){
+//         alert("Welcome Back "+ name);
+    
+// }else{
+//     alert("Welcome to the guest list");
+// }
+
+
+// var output =[];
+// var count = 1;
+
+// function fizzBuzz(){
+//     while(count <= 100){
+//     if(count % 3 === 0 && count % 5 === 0 ){
+//         output.push("FizzBuzz");
+//     }
+//     else if(count % 3 === 0){
+//         output.push("Fizz");
+//     }
+//     else if(count % 5 === 0){
+//         output.push("Buzz");
+//     }    
+//     else{
+//         output.push(count);
+//     }
+   
+//     count++;
+    
+//     }
+//     console.log(output);
+// }
+
+
+// fizzBuzz();
+
+// var output =[];
+// var count = 100;
+
+// function beer(){
+//     while (count >= 1){
+//         console.log("i have:"+count+" , beers on my wall,"+count+" beers ony my fridge");
+//         count--;
+//     }
+// }
+
+// beer();
+
+// var numberOfBottles = 99
+// while (numberOfBottles >= 0) {
+//     var bottleWord = "bottle";
+//     if (numberOfBottles === 1) {
+//         bottleWord = "bottles";
+//     } 
+//     console.log(numberOfBottles + " " + bottleWord + " of beer on the wall");
+//     console.log(numberOfBottles + " " + bottleWord + " of beer,");
+//     console.log("Take one down, pass it around,");
+// 	numberOfBottles--;
+//     console.log(numberOfBottles + " " + bottleWord + " of beer on the wall.");
+// }
+// var numberOfpeople = names.length;
+// var randomPersonPosition = Math.floor(Math.random()*numberOfpeople);
+// var randomPerson = names[randomPersonPosition];
+
+// return randomPerson+" is going to buy lunch today!";
+
+
+// var output =[];
+
+
+// function fizzBuzz(){
+//     for( var count = 1; count < 100;count++){
+//     if(count % 3 === 0 && count % 5 === 0 ){
+//         output.push("FizzBuzz");
+//     }
+//     else if(count % 3 === 0){
+//         output.push("Fizz");
+//     }
+//     else if(count % 5 === 0){
+//         output.push("Buzz");
+//     }    
+//     else{
+//         output.push(count);
+//     }
+   
+    
+    
+//     }
+//     console.log(output);
+// }
+
+
+// fizzBuzz();
+
+
+// var output = [];
+// if(n==1){
+//     output = [0];
+// }
+// else if(m ==2 ){
+//     output = [0,1];
+// }
+// else{
+//     output = [0,1];
+    
+//     for(var i = 2; i < n;i++){
+//     output.push(output[output.length - 2] + output[output.length - 1]);
+//     }
+// }
+//     return output;
+// }
+
+
+// return output;
